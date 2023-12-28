@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/css/ionicons.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+    integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+  
+  <div class="container">
+    <div class="header">
+      <nav class="navbar">
+        <div class="container-navbar">
+          <div class="nav">
+            <ul class="navb">
+              <i class="fa fa-home"></i>
+              <li class="navbar-1">
+                <a class="nav-link" href="#">
+                  Sản Phẩm
+                </a>
+                <ul class="drop-menu">
+                  <li class="item"><a href="#">Sản Phẩm 1</a></li>
+                  <li class="item"><a href="#">Sản Phẩm 2</a></li>
+                  <li class="item"><a href="#">Sản Phẩm 3</a></li>
+                </ul>
+              </li>
+              <li class="navbar-1">
+                <a href="#">Giới Thiệu</a>
+              </li>
+              <li class="navbar-1">
+                <a class="nav-link" href="#">
+                  Khuyến mãi
+                </a>
+                <ul class="drop-menu">
+                  <li class="item"><a href="#">Khuyến mãi 1</a></li>
+                  <li class="item"><a href="#">Khuyến mãi 2</a></li>
+                  <li class="item"><a href="#">Khuyến mãi 3</a></li>
+                </ul>
+              </li>
+              <li class="navbar-1">
+                <img src="/images/logo/logo.png" alt="logo">
+              </li>
+              <li class="navbar-1">
+                <a class="nav-link" href="#">
+                  Tin Tức
+                </a>
+                <ul class="drop-menu">
+                  <li class="item"><a href="#">Tin Tức 1</a></li>
+                  <li class="item"><a href="#">Tin Tức 2</a></li>
+                  <li class="item"><a href="#">Tin Tức 3</a></li>
+                </ul>
+              </li>
+              <li class="navbar-1">
+                <a class="nav-link" href="#">
+                  Đại Lí
+                </a>
+                <ul class="drop-menu">
+                  <li class="item"><a href="#">Đại Lí 1</a></li>
+                  <li class="item"><a href="#">Đại Lí 2</a></li>
+                  <li class="item"><a href="#">Đại Lí 3</a></li>
+                </ul>
+              </li>
+              <li class="navbar-1">
+                <i class="fa fa-shopping-basket"></i>
+              </li>
+              <li>
+                <img class="language" src="/images/language/vi.jpg" alt="">
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <script>
+            // Lắng nghe sự kiện di chuột vào phần tử chứa menu
+            document.querySelector('.navbar-1').addEventListener('mouseenter', function () {
+              // Hiển thị menu thả xuống khi di chuột vào
+              this.querySelector('.drop-menu').style.display = 'block';
+            });
+  
+            // Lắng nghe sự kiện di chuột ra khỏi phần tử chứa menu
+            document.querySelector('.navbar-1').addEventListener('mouseleave', function () {
+              // Ẩn menu thả xuống khi di chuột ra khỏi
+              this.querySelector('.drop-menu').style.display = 'none';
+            });
+          </script>
+        </div>
+      </nav>
+      <script src="slick.js"></script>
+      <div class="writting">
+        <div class="caption">
+          <h2>Thành Phần Tự Nhiên</h2>
+          <img src="/Icons-svg/Icons-svg/lá cây/leaf-2.png" alt="">
+        </div>
+        <div>
+          <h1>Tự Tin Tỏa Sáng</h1>
+        </div>
+        <button class="hb">Đặt Hàng Ngay</button>
+      </div>
+    </div>
+    <div class="container">
+  
+  
+  
+      <div class="list-icon">
+        <ul>
+          <li>
+            <img src="/utilities/1.svg" alt="ảnh 1">
+            <h3>Thành Phần Tự Nhiên</h3>
+            <p>Sản phẩm dưỡng da tinh chất từ yến đầu tiên ở Việt Nam</p>
+          </li>
+          <li>
+            <img src="/utilities/2.svg" alt="ảnh 2">
+            <h3>Độ PH Trung Tính</h3>
+            <p>Sản phẩm dưỡng da tinh chất từ yến đầu tiên ở Việt Nam</p>
+          </li>
+          <li>
+            <img src="/utilities/3.svg" alt="ảnh 2">
+            <h3>Bảo Vệ Môi Trường</h3>
+            <p>Sản phẩm dưỡng da tinh chất từ yến đầu tiên ở Việt Nam</p>
+          </li>
+          <li>
+            <img src="/utilities/4.svg" alt="ảnh 2">
+            <h3>Không Chứa Paraben</h3>
+            <p>Sản phẩm dưỡng da tinh chất từ yến đầu tiên ở Việt Nam</p>
+          </li>
+        </ul>
+      </div>
+  
+  
+      <table class="page3" cellpadding="5" cellspacing="5">
+        <tr>
+          <th class="trai"> <img src="/images/background/about-1.png" alt=""> </th>
+          <th class="phai">
+            <h2 id="spm">Sản phẩm mới</h2>
+            <br>
+            <h2 id="serum">Serum Dưỡng Da <br>Tinh Chất Yến Sào <br> Đầu Tiên Ở Việt Nam</h2>
+            <br>
+            <p id="p1">Với thành phần độc đáo của yến sào, serum không chỉ dưỡng ẩm sau
+              mà còn <br> kích thích sản sinh collagen, giảm nếp nhăn
+            </p>
+            <br>
+            <p id="p2"><br>Trải nghiệm sự trẻ trung và khám phá làn da mới với sự hỗ trợ
+              toàn diện từ serum <br> chăm sóc da hằng ngày
+            </p>
+            <br>
+            <button id="dhn-page3">Đặt Hàng Ngay</button>
+            <button id="tvgh-page3">Thêm Vào Giỏ Hàng</button>
+          </th>
+        </tr>
+      </table>
+  
+      <div class="slider-product">
+        <div class="headersanpham" style="margin-bottom: 0;">
+          <img src="/Icons-svg/Icons-svg/lá cây/leaf.svg" alt="">
+          <div class="text">
+            <h3>Bộ Sưu Tập</h3>
+            <h5>VẺ ĐẸP TINH TẾ</h5>
+          </div>
+        </div>
+        <div class="image-slider">
+          <div class="image-item">
+            <div class="image">
+              <img src="/images/product/1.png" alt="ảnh 1">
+            </div>
+            <div class="tittle">
+              <h3 class="image-tittle">Sữa rửa mặt HSkin care</h3>
+              <br>
+              <h3 class="image-title"> Giá: </h3>
+              <br>
+              <button id="dhn-page3">Đặt Hàng Ngay</button>
+            </div>
+          </div>
+          <div class="image-item">
+            <div class="image">
+              <img src="/images/product/2.png" alt="ảnh 1">
+            </div>
+            <div class="tittle">
+              <h3 class="image-tittle">Kem Tẩy Tế Bào Chết</h3>
+              <br>
+              <h3 class="image-title"> Giá: </h3>
+              <br>
+              <button id="dhn-page3">Đặt Hàng Ngay</button>
+            </div>
+          </div>
+          <div class="image-item">
+            <div class="image">
+              <img src="/images/product/3.png" alt="ảnh 1">
+            </div>
+            <h3 class="image-tittle">Kem Dưỡng Mắt</h3>
+            <br>
+            <h3 class="image-title"> Giá: </h3>
+            <br>
+            <button id="dhn-page3">Đặt Hàng Ngay</button>
+          </div>
+          <div class="image-item">
+            <div class="image">
+              <img src="/images/product/4.png" alt="ảnh 1">
+            </div>
+            <h3 class="image-tittle">Kem Chống Lão Hóa</h3>
+            <br>
+            <h3 class="image-title"> Giá: </h3>
+            <br>
+            <button id="dhn-page3">Đặt Hàng Ngay</button>
+          </div>
+          <div class="image-item">
+            <div class="image">
+              <img src="/images/product/5.png" alt="ảnh 1">
+            </div>
+            <h3 class="image-tittle">Bộ Sản Phẩm Tắm Gội</h3>
+            <br>
+            <h3 class="image-title"> Giá: </h3>
+            <br>
+            <button id="dhn-page3">Đặt Hàng Ngay</button>
+          </div>
+          <div class="image-item">
+            <div class="image">
+              <img src="/images/product/6.png" alt="ảnh 1">
+            </div>
+            <h3 class="image-tittle">Serum trị mụn</h3>
+            <br>
+            <h3 class="image-title"> Giá: </h3>
+            <br>
+            <button id="dhn-page3">Đặt Hàng Ngay</button>
+          </div>
+          <div class="image-item">
+            <div class="image">
+              <img src="/images/product/7.png" alt="ảnh 1">
+            </div>
+            <h3 class="image-tittle">Sữa Rửa Mặt và Kem Bôi Trị Mụn</h3>
+            <br>
+            <h3 class="image-title"> Giá: </h3>
+            <br>
+            <button id="dhn-page3">Đặt Hàng Ngay</button>
+          </div>
+          <div class="image-item">
+            <div class="image">
+              <img src="/images/product/8.png" alt="ảnh 1">
+            </div>
+            <h3 class="image-tittle">Lotion Dưỡng Ẩm</h3>
+            <br>
+            <h3 class="image-title"> Giá: </h3>
+            <br>
+            <button id="dhn-page3">Đặt Hàng Ngay</button>
+          </div>
+          <div class="image-item">
+            <div class="image">
+              <img src="/images/product/9.png" alt="ảnh 1">
+            </div>
+            <h3 class="image-tittle">Mặt Nạ Dưỡng Da</h3>
+            <br>
+            <h3 class="image-title"> Giá: </h3>
+            <br>
+            <button id="dhn-page3">Đặt Hàng Ngay</button>
+          </div>
+          <div class="image-item">
+            <div class="image">
+              <img src="/images/product/10.png" alt="ảnh 1">
+            </div>
+            <h3 class="image-tittle">Tẩy Tế Bào Chết</h3>
+            <br>
+            <h3 class="image-title"> Giá: </h3>
+            <br>
+            <button id="dhn-page3">Đặt Hàng Ngay</button>
+          </div>
+          <div class="image-item">
+            <div class="image">
+              <img src="/images/product/11.png" alt="ảnh 1">
+            </div>
+            <h3 class="image-tittle">Toner Cân Bằng Da</h3>
+            <br>
+            <h3 class="image-title"> Giá: </h3>
+            <br>
+            <button id="dhn-page3">Đặt Hàng Ngay</button>
+          </div>
+          <div class="image-item">
+            <div class="image">
+              <img src="/images/product/12.png" alt="ảnh 1">
+            </div>
+            <h3 class="image-tittle">Kem Chống Nắng</h3>
+            <br>
+            <h3 class="image-title"> Giá: </h3>
+            <br>
+            <button id="dhn-page3">Đặt Hàng Ngay</button>
+          </div>
+  
+        </div>
+      </div>
+  
+  
+      <div class="headersanpham2" style="margin-bottom: 0;">
+        <img src="/Icons-svg/Icons-svg/lá cây/leaf.svg" alt="">
+        <div class="text">
+          <h3>Sản Phẩm Được Yêu Thích</h3>
+          <h5>ĐƯỢC ĐÁNH GIÁ CAO NHẤT</h5>
+        </div>
+      </div>
+  
+  
+      <div class="sanphamduocyeuthich">
+        <div class="leftt">
+          <div class="slider-table">
+            <div class="spyt-item">
+              <div class="sp-image">
+                <img src="/images/product/1.png" alt="ảnh 1">
+              </div>
+  
+            </div>
+            <div class="spyt-item">
+              <div class="sp-image">
+                <img src="/images/product/2.png" alt="ảnh 2">
+              </div>
+  
+            </div>
+            <div class="spyt-item">
+              <div class="sp-image">
+                <img src="/images/product/3.png" alt="ảnh 3">
+              </div>
+  
+            </div>
+            <div class="spyt-item">
+              <div class="sp-image">
+                <img src="/images/product/4.png" alt="ảnh 4">
+              </div>
+  
+            </div>
+            <div class="spyt-item">
+              <div class="sp-image">
+                <img src="/images/product/5.png" alt="ảnh 5">
+              </div>
+  
+            </div>
+          </div>
+        </div>
+        <div class="rightt">
+          <h2 id="spcb">Bộ Sản Phẩm Cơ Bản </h2>
+          <br>
+          <p id="p3">Với thành phần độc đáo của yến sào, serum không chỉ dưỡng ẩm sau mà còn <br> kích
+            thích sản sinh collagen, giảm nếp nhăn</p>
+          <br>
+          <p id="p4"><br>Trải nghiệm sự trẻ trung và khám phá làn da mới với sự hỗ trợ toàn diện từ
+            serum <br> chăm sóc da hằng ngày
+          </p>
+          <br>
+          <button id="dhn-page3">Đặt Hàng Ngay</button>
+          <button id="tvgh-page3">Thêm Vào Giỏ Hàng</button>
+        </div>
+      </div>
+  
+  
+      <div class="khuyenmai">
+        <div class="anhbia">
+          <img src="/images/background/promotion.png" alt="ảnh bìa">
+        </div>
+        <div class="noidung">
+          <div class="headersanpham3">
+            <img src="/Icons-svg/Icons-svg/lá cây/leaf.svg" alt="">
+            <div class="text">
+              <h3>Khuyến Mãi</h3>
+              <h5>TRẢI NGHIỆM SẢN PHẨM VỚI MỨC GIÁ TỐT NHẤT</h5>
+            </div>
+          </div>
+          <div class="time-line">
+            <div class="time-item">
+              <span class="time">01</span>
+              <span class="definition">NGÀY</span>
+            </div>
+            <div class="separator">
+              <h3>|</h3>
+            </div>
+            <div class="time-item">
+              <span class="time">59</span>
+              <span class="definition">GIỜ</span>
+            </div>
+            <div class="separator">
+              <h3>|</h3>
+            </div>
+            <div class="time-item">
+              <span class="time">23</span>
+              <span class="definition">PHÚT</span>
+            </div>
+          </div>
+          <div class="sliderkhuyenmai">
+            <div class="khuyenmai-item">
+              <div class="khuyenmai-image">
+                <img src="/images/product/1.png" alt="ảnh 1">
+              </div>
+              <div class="khuyenmai-content">
+                <h3 class="image-tittle">Sữa rửa mặt HSkin care</h3>
+                <br>
+                <h3 class="image-title"> Giá: </h3>
+                <br>
+                <button id="dhn-page3">Đặt Hàng Ngay</button>
+                <i class="fa fa-shopping-basket"> </i>
+              </div>
+            </div>
+            <div class="khuyenmai-item" style=margin-left:15px;>
+              <div class="khuyenmai-image">
+                <img src="/images/product/2.png" alt="ảnh 2">
+              </div>
+              <div class="khuyenmai-content">
+                <h3 class="image-tittle">Sữa rửa mặt HSkin care</h3>
+                <br>
+                <h3 class="image-title"> Giá: </h3>
+                <br>
+                <button id="dhn-page3">Đặt Hàng Ngay</button>
+              </div>
+            </div>
+            <div class="khuyenmai-item">
+              <div class="khuyenmai-image">
+                <img src="/images/product/3.png" alt="ảnh 3">
+              </div>
+              <div class="khuyenmai-content">
+                <h3 class="image-tittle">Sữa rửa mặt HSkin care</h3>
+                <br>
+                <h3 class="image-title"> Giá: </h3>
+                <br>
+                <button id="dhn-page3">Đặt Hàng Ngay</button>
+              </div>
+            </div>
+            <div class="khuyenmai-item" style=margin-left:15px;>
+              <div class="khuyenmai-image">
+                <img src="/images/product/4.png" alt="ảnh 4">
+              </div>
+              <div class="khuyenmai-content">
+                <h3 class="image-tittle">Sữa rửa mặt HSkin care</h3>
+                <br>
+                <h3 class="image-title"> Giá: </h3>
+                <br>
+                <button id="dhn-page3">Đặt Hàng Ngay</button>
+              </div>
+            </div>
+            <div class="khuyenmai-item">
+              <div class="khuyenmai-image">
+                <img src="/images/product/5.png" alt="ảnh 5">
+              </div>
+              <div class="khuyenmai-content">
+                <h3 class="image-tittle">Sữa rửa mặt HSkin care</h3>
+                <br>
+                <h3 class="image-title"> Giá: </h3>
+                <br>
+                <button id="dhn-page3">Đặt Hàng Ngay</button>
+              </div>
+            </div>
+            <div class="khuyenmai-item" style=margin-left:15px;>
+              <div class="khuyenmai-image">
+                <img src="/images/product/6.png" alt="ảnh 5">
+              </div>
+              <div class="khuyenmai-content">
+                <h3 class="image-tittle">Sữa rửa mặt HSkin care</h3>
+                <br>
+                <h3 class="image-title"> Giá: </h3>
+                <br>
+                <button id="dhn-page3">Đặt Hàng Ngay</button>
+              </div>
+            </div>
+            <div class="khuyenmai-item">
+              <div class="khuyenmai-image">
+                <img src="/images/product/7.png" alt="ảnh 5">
+              </div>
+              <div class="khuyenmai-content">
+                <h3 class="image-tittle">Sữa rửa mặt HSkin care</h3>
+                <br>
+                <h3 class="image-title"> Giá: </h3>
+                <br>
+                <button id="dhn-page3">Đặt Hàng Ngay</button>
+              </div>
+            </div>
+            <div class="khuyenmai-item" style=margin-left:15px;>
+              <div class="khuyenmai-image">
+                <img src="/images/product/8.png" alt="ảnh 5">
+              </div>
+              <div class="khuyenmai-content">
+                <h3 class="image-tittle">Sữa rửa mặt HSkin care</h3>
+                <br>
+                <h3 class="image-title"> Giá: </h3>
+                <br>
+                <button id="dhn-page3">Đặt Hàng Ngay</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="feelings">
+        <div class="headersanpham4" style="margin-bottom: 0;">
+          <img src="/Icons-svg/Icons-svg/lá cây/leaf.svg" alt="">
+          <div class="text">
+            <h3>Cảm Nhận</h3>
+            <h5>KHÁCH HÀNG NÓI GÌ VỀ SẢN PHẨM</h5>
+          </div>
+        </div>
+        <div class="card-deck">
+          <div class="card">
+            <h1>❝</h1>
+            <h4>Sản Phẩm Tốt Vượt Mong Đợi</h4>
+            <p>“Sản phẩm sử dụng rất tốt, giá cả hợp lý, sẽ ủng hộ tiếp tục.”</p>
+            <div class="user-ava">
+              <img src="/images/avatar/1.png" style="height: 1.5cm">
+              &ensp;
+              &ensp;
+              <div class="voted">
+                <div class="name-user">Vy Hoàng</div>
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="margin-left: 15px;">
+  
+            <h1>❝</h1>
+            <h4 style="margin: 0;">Serum Dùng Rất Thích</h4>
+            <p style="margin: 4.5px 15px;">“Chất serum khi dùng trên da không bị dính, mau khô, cảm thấy có công dụng
+              trong 1 tuần đầu.”</p>
+            <div class="user-ava">
+              <img src="/images/avatar/2.png" style="height: 1.5cm">
+              &ensp;
+              &ensp;
+              <div class="voted">
+                <div class="name-user">Mai Lê</div>
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="card">
+            <h1>❝</h1>
+            <h4>Sản Phẩm Tốt Vượt Mong Đợi</h4>
+            <p>“Sản phẩm sử dụng rất tốt, giá cả hợp lý, sẽ ủng hộ tiếp tục.”</p>
+            <div class="user-ava">
+              <img src="/images/avatar/1.png" style="height: 1.5cm">
+              &ensp;
+              &ensp;
+              <div class="voted">
+                <div class="name-user">Vy Hoàng</div>
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="margin-left: 15px;">
+  
+            <h1>❝</h1>
+            <h4 style="margin: 0;">Serum Dùng Rất Thích</h4>
+            <p style="margin: 4.5px 15px;">“Chất serum khi dùng trên da không bị dính, mau khô, cảm thấy có công dụng
+              trong 1 tuần đầu.”</p>
+            <div class="user-ava">
+              <img src="/images/avatar/2.png" style="height: 1.5cm">
+              &ensp;
+              &ensp;
+              <div class="voted">
+                <div class="name-user">Mai Lê</div>
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="card">
+            <h1>❝</h1>
+            <h4>Sản Phẩm Tốt Vượt Mong Đợi</h4>
+            <p>“Sản phẩm sử dụng rất tốt, giá cả hợp lý, sẽ ủng hộ tiếp tục.”</p>
+            <div class="user-ava">
+              <img src="/images/avatar/1.png" style="height: 1.5cm">
+              &ensp;
+              &ensp;
+              <div class="voted">
+                <div class="name-user">Vy Hoàng</div>
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="margin-left: 15px;">
+  
+            <h1>❝</h1>
+            <h4 style="margin: 0;">Serum Dùng Rất Thích</h4>
+            <p style="margin: 4.5px 15px;">“Chất serum khi dùng trên da không bị dính, mau khô, cảm thấy có công dụng
+              trong 1 tuần đầu.”</p>
+            <div class="user-ava">
+              <img src="/images/avatar/2.png" style="height: 1.5cm">
+              &ensp;
+              &ensp;
+              <div class="voted">
+                <div class="name-user">Mai Lê</div>
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="card">
+            <h1>❝</h1>
+            <h4>Sản Phẩm Tốt Vượt Mong Đợi</h4>
+            <p>“Sản phẩm sử dụng rất tốt, giá cả hợp lý, sẽ ủng hộ tiếp tục.”</p>
+            <div class="user-ava">
+              <img src="/images/avatar/1.png" style="height: 1.5cm">
+              &ensp;
+              &ensp;
+              <div class="voted">
+                <div class="name-user">Vy Hoàng</div>
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="margin-left: 15px;">
+  
+            <h1>❝</h1>
+            <h4 style="margin: 0;">Serum Dùng Rất Thích</h4>
+            <p style="margin: 4.5px 15px;">“Chất serum khi dùng trên da không bị dính, mau khô, cảm thấy có công dụng
+              trong 1 tuần đầu.”</p>
+            <div class="user-ava">
+              <img src="/images/avatar/2.png" style="height: 1.5cm">
+              &ensp;
+              &ensp;
+              <div class="voted">
+                <div class="name-user">Mai Lê</div>
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="Kinhnghiemlamdep">
+        <div class="headersanpham5" style="margin-bottom: 0;">
+          <img src="/Icons-svg/Icons-svg/lá cây/leaf.svg" alt="">
+          <div class="text">
+            <h3>Kinh Nghiệm Làm Đẹp</h3>
+            <h5>ĐẸP MỖI NGÀY</h5>
+          </div>
+        </div>
+        <div class="kinhnghiemlamdep-slider">
+          <div class="knld-item">
+            <div class="knld-img">
+              <img src="/images/blog/1.jpg" alt="anh1">
+            </div>
+            <div class="knld-text">
+              <h3>Cách Làm Đẹp Da Bằng Tổ Yến Ít Ai Biết</h3>
+              <p>Trong tổ yến có rất giàu đạm, đường bột, khoáng vi lượng, chất xơ và 18 loại axit amin khác. Ngoài các
+                tác dụng tăng cường sức khỏe, tổ yến còn có tác dụng đặc biệt trong việc chăm sóc da...</p>
+            </div>
+          </div>
+          <div class="knld-item">
+            <div class="knld-img">
+              <img src="/images/blog/2.jpg" alt="anh2">
+            </div>
+            <div class="knld-text">
+              <h3>Mặt Nạ Yến Xào: Giải Pháp Làm Đẹp, Trẻ Hóa Làn Da</h3>
+              <p>Bên cạnh công dụng bồi bổ sức khỏe, yến xào còn được biết đến là một loại nguyên liệu làm đẹp và chăm sóc
+                da tuyệt với cho chị em phụ nữ. Sau đây, Hãy cùng HSkin Care khám phá ngay các cách làm đẹp...</p>
+            </div>
+          </div>
+          <div class="knld-item">
+            <div class="knld-img">
+              <img src="/images/blog/3.jpg" alt="anh3">
+            </div>
+            <div class="knld-text">
+              <h3>Công Dụng Của Yến Sào Đối Với Làn Da Bạn Nên Biết </h3>
+              <p>Nước yến là loại thực phẩm giàu dinh dưỡng có nhiều công dụng đối với sức khỏe và sắc đẹp. Tuy nhiên, có
+                nhiều chị em vẫn thường thắc mắc liệu uống nước yến có đẹp da không? Hãy cùng HSkin Care...</p>
+            </div>
+          </div>
+          <div class="knld-item">
+            <div class="knld-img">
+              <img src="/images/blog/1.jpg" alt="anh1">
+            </div>
+            <div class="knld-text">
+              <h3>Cách Làm Đẹp Da Bằng Tổ Yến Ít Ai Biết</h3>
+              <p>Trong tổ yến có rất giàu đạm, đường bột, khoáng vi lượng, chất xơ và 18 loại axit amin khác. Ngoài các
+                tác dụng tăng cường sức khỏe, tổ yến còn có tác dụng đặc biệt trong việc chăm sóc da...</p>
+            </div>
+          </div>
+          <div class="knld-item">
+            <div class="knld-img">
+              <img src="/images/blog/2.jpg" alt="anh2">
+            </div>
+            <div class="knld-text">
+              <h3>Mặt Nạ Yến Xào: Giải Pháp Làm Đẹp, Trẻ Hóa Làn Da</h3>
+              <p>Bên cạnh công dụng bồi bổ sức khỏe, yến xào còn được biết đến là một loại nguyên liệu làm đẹp và chăm sóc
+                da tuyệt với cho chị em phụ nữ. Sau đây, Hãy cùng HSkin Care khám phá ngay các cách làm đẹp...</p>
+            </div>
+          </div>
+          <div class="knld-item">
+            <div class="knld-img">
+              <img src="/images/blog/3.jpg" alt="anh3">
+            </div>
+            <div class="knld-text">
+              <h3>Công Dụng Của Yến Sào Đối Với Làn Da Bạn Nên Biết </h3>
+              <p>Nước yến là loại thực phẩm giàu dinh dưỡng có nhiều công dụng đối với sức khỏe và sắc đẹp. Tuy nhiên, có
+                nhiều chị em vẫn thường thắc mắc liệu uống nước yến có đẹp da không? Hãy cùng HSkin Care...</p>
+            </div>
+          </div>
+          <div class="knld-item">
+            <div class="knld-img">
+              <img src="/images/blog/1.jpg" alt="anh1">
+            </div>
+            <div class="knld-text">
+              <h3>Cách Làm Đẹp Da Bằng Tổ Yến Ít Ai Biết</h3>
+              <p>Trong tổ yến có rất giàu đạm, đường bột, khoáng vi lượng, chất xơ và 18 loại axit amin khác. Ngoài các
+                tác dụng tăng cường sức khỏe, tổ yến còn có tác dụng đặc biệt trong việc chăm sóc da...</p>
+            </div>
+          </div>
+          <div class="knld-item">
+            <div class="knld-img">
+              <img src="/images/blog/2.jpg" alt="anh2">
+            </div>
+            <div class="knld-text">
+              <h3>Mặt Nạ Yến Xào: Giải Pháp Làm Đẹp, Trẻ Hóa Làn Da</h3>
+              <p>Bên cạnh công dụng bồi bổ sức khỏe, yến xào còn được biết đến là một loại nguyên liệu làm đẹp và chăm sóc
+                da tuyệt với cho chị em phụ nữ. Sau đây, Hãy cùng HSkin Care khám phá ngay các cách làm đẹp...</p>
+            </div>
+          </div>
+          <div class="knld-item">
+            <div class="knld-img">
+              <img src="/thuctap/images/blog/3.jpg" alt="anh3">
+            </div>
+            <div class="knld-text">
+              <h3>Công Dụng Của Yến Sào Đối Với Làn Da Bạn Nên Biết </h3>
+              <p>Nước yến là loại thực phẩm giàu dinh dưỡng có nhiều công dụng đối với sức khỏe và sắc đẹp. Tuy nhiên, có
+                nhiều chị em vẫn thường thắc mắc liệu uống nước yến có đẹp da không? Hãy cùng HSkin Care...</p>
+            </div>
+          </div>
+          <div class="knld-item">
+            <div class="knld-img">
+              <img src="/images/blog/1.jpg" alt="anh1">
+            </div>
+            <div class="knld-text">
+              <h3>Cách Làm Đẹp Da Bằng Tổ Yến Ít Ai Biết</h3>
+              <p>Trong tổ yến có rất giàu đạm, đường bột, khoáng vi lượng, chất xơ và 18 loại axit amin khác. Ngoài các
+                tác dụng tăng cường sức khỏe, tổ yến còn có tác dụng đặc biệt trong việc chăm sóc da...</p>
+            </div>
+          </div>
+          <div class="knld-item">
+            <div class="knld-img">
+              <img src="/images/blog/2.jpg" alt="anh2">
+            </div>
+            <div class="knld-text">
+              <h3>Mặt Nạ Yến Xào: Giải Pháp Làm Đẹp, Trẻ Hóa Làn Da</h3>
+              <p>Bên cạnh công dụng bồi bổ sức khỏe, yến xào còn được biết đến là một loại nguyên liệu làm đẹp và chăm sóc
+                da tuyệt với cho chị em phụ nữ. Sau đây, Hãy cùng HSkin Care khám phá ngay các cách làm đẹp...</p>
+            </div>
+          </div>
+          <div class="knld-item">
+            <div class="knld-img">
+              <img src="/images/blog/3.jpg" alt="anh3">
+            </div>
+            <div class="knld-text">
+              <h3>Công Dụng Của Yến Sào Đối Với Làn Da Bạn Nên Biết </h3>
+              <p>Nước yến là loại thực phẩm giàu dinh dưỡng có nhiều công dụng đối với sức khỏe và sắc đẹp. Tuy nhiên, có
+                nhiều chị em vẫn thường thắc mắc liệu uống nước yến có đẹp da không? Hãy cùng HSkin Care...</p>
+            </div>
+          </div>
+          <div class="knld-item">
+            <div class="knld-img">
+              <img src="/images/blog/1.jpg" alt="anh1">
+            </div>
+            <div class="knld-text">
+              <h3>Cách Làm Đẹp Da Bằng Tổ Yến Ít Ai Biết</h3>
+              <p>Trong tổ yến có rất giàu đạm, đường bột, khoáng vi lượng, chất xơ và 18 loại axit amin khác. Ngoài các
+                tác dụng tăng cường sức khỏe, tổ yến còn có tác dụng đặc biệt trong việc chăm sóc da...</p>
+            </div>
+          </div>
+          <div class="knld-item">
+            <div class="knld-img">
+              <img src="/images/blog/2.jpg" alt="anh2">
+            </div>
+            <div class="knld-text">
+              <h3>Mặt Nạ Yến Xào: Giải Pháp Làm Đẹp, Trẻ Hóa Làn Da</h3>
+              <p>Bên cạnh công dụng bồi bổ sức khỏe, yến xào còn được biết đến là một loại nguyên liệu làm đẹp và chăm sóc
+                da tuyệt với cho chị em phụ nữ. Sau đây, Hãy cùng HSkin Care khám phá ngay các cách làm đẹp...</p>
+            </div>
+          </div>
+          <div class="knld-item">
+            <div class="knld-img">
+              <img src="/images/blog/3.jpg" alt="anh3">
+            </div>
+            <div class="knld-text">
+              <h3>Công Dụng Của Yến Sào Đối Với Làn Da Bạn Nên Biết </h3>
+              <p>Nước yến là loại thực phẩm giàu dinh dưỡng có nhiều công dụng đối với sức khỏe và sắc đẹp. Tuy nhiên, có
+                nhiều chị em vẫn thường thắc mắc liệu uống nước yến có đẹp da không? Hãy cùng HSkin Care...</p>
+            </div>
+          </div>
+  
+        </div>
+        <button id="dhn-page3" style="
+        border-left-width: 300px;
+        margin-left: 710px;
+        ">Xem Tất Cả</button>
+      </div>
+  
+      <div class="Tin Tuc">
+        <div class="headersanpham6" style="margin-bottom: 0;">
+          <img src="/Icons-svg/Icons-svg/lá cây/leaf.svg" alt="">
+          <div class="text">
+            <h3>Tin Tức</h3>
+            <h5>CẬP NHẬT MỚI NHẤT</h5>
+          </div>
+        </div>
+        <div class="TinTuc-slider">
+          <div class="tt-item">
+            <div class="tt-img">
+              <img src="/images/news/1.jpg" alt="anh1">
+            </div>
+            <div class="tt-text">
+              <h3>Serum Dưỡng Da Tinh Chất Từ Yến Đầu Tiên Ở Việt Nam</h3>
+              <p>Trong tổ yến có rất giàu đạm, đường bột, khoáng vi lượng, chất xơ và 18 loại axit amin khác. Ngoài các
+                tác dụng tăng cường sức khỏe, tổ yến còn có tác dụng đặc biệt trong việc chăm sóc da...</p>
+            </div>
+          </div>
+          <div class="tt-item">
+            <div class="tt-img">
+              <img src="/images/news/2.jpg" alt="anh2">
+            </div>
+            <div class="tt-text">
+              <h3>Hskin Care Đã Có Mặt Tại Thành Phố Nha Trang</h3>
+              <p>Bên cạnh công dụng bồi bổ sức khỏe, yến xào còn được biết đến là một loại nguyên liệu làm đẹp và chăm sóc
+                da tuyệt với cho chị em phụ nữ. Sau đây, Hãy cùng HSkin Care khám phá ngay các cách làm đẹp...</p>
+            </div>
+          </div>
+          <div class="tt-item">
+            <div class="tt-img">
+              <img src="/images/news/3.jpg" alt="anh1">
+            </div>
+            <div class="tt-text">
+              <h3>Những Món Quà Tặng Ý Nghĩa Cho Các Dịp Lễ Tết</h3>
+              <p>Nước yến là loại thực phẩm giàu dinh dưỡng có nhiều công dụng đối với sức khỏe và sắc đẹp. Tuy nhiên, có
+                nhiều chị em vẫn thường thắc mắc liệu uống nước yến có đẹp da không? Hãy cùng HSkin Care...</p>
+            </div>
+          </div>
+          <div class="tt-item">
+            <div class="tt-img">
+              <img src="/images/news/1.jpg" alt="anh1">
+            </div>
+            <div class="tt-text">
+              <h3>Serum Dưỡng Da Tinh Chất Từ Yến Đầu Tiên Ở Việt Nam</h3>
+              <p>Trong tổ yến có rất giàu đạm, đường bột, khoáng vi lượng, chất xơ và 18 loại axit amin khác. Ngoài các
+                tác dụng tăng cường sức khỏe, tổ yến còn có tác dụng đặc biệt trong việc chăm sóc da...</p>
+            </div>
+          </div>
+          <div class="tt-item">
+            <div class="tt-img">
+              <img src="/images/news/2.jpg" alt="anh2">
+            </div>
+            <div class="tt-text">
+              <h3>Hskin Care Đã Có Mặt Tại Thành Phố Nha Trang</h3>
+              <p>Bên cạnh công dụng bồi bổ sức khỏe, yến xào còn được biết đến là một loại nguyên liệu làm đẹp và chăm sóc
+                da tuyệt với cho chị em phụ nữ. Sau đây, Hãy cùng HSkin Care khám phá ngay các cách làm đẹp...</p>
+            </div>
+          </div>
+          <div class="tt-item">
+            <div class="tt-img">
+              <img src="/images/news/3.jpg" alt="anh1">
+            </div>
+            <div class="tt-text">
+              <h3>Những Món Quà Tặng Ý Nghĩa Cho Các Dịp Lễ Tết</h3>
+              <p>Nước yến là loại thực phẩm giàu dinh dưỡng có nhiều công dụng đối với sức khỏe và sắc đẹp. Tuy nhiên, có
+                nhiều chị em vẫn thường thắc mắc liệu uống nước yến có đẹp da không? Hãy cùng HSkin Care...</p>
+            </div>
+          </div>
+          <div class="tt-item">
+            <div class="tt-img">
+              <img src="/images/news/1.jpg" alt="anh1">
+            </div>
+            <div class="tt-text">
+              <h3>Serum Dưỡng Da Tinh Chất Từ Yến Đầu Tiên Ở Việt Nam</h3>
+              <p>Trong tổ yến có rất giàu đạm, đường bột, khoáng vi lượng, chất xơ và 18 loại axit amin khác. Ngoài các
+                tác dụng tăng cường sức khỏe, tổ yến còn có tác dụng đặc biệt trong việc chăm sóc da...</p>
+            </div>
+          </div>
+          <div class="tt-item">
+            <div class="tt-img">
+              <img src="/images/news/2.jpg" alt="anh2">
+            </div>
+            <div class="tt-text">
+              <h3>Hskin Care Đã Có Mặt Tại Thành Phố Nha Trang</h3>
+              <p>Bên cạnh công dụng bồi bổ sức khỏe, yến xào còn được biết đến là một loại nguyên liệu làm đẹp và chăm sóc
+                da tuyệt với cho chị em phụ nữ. Sau đây, Hãy cùng HSkin Care khám phá ngay các cách làm đẹp...</p>
+            </div>
+          </div>
+          <div class="tt-item">
+            <div class="tt-img">
+              <img src="/images/news/3.jpg" alt="anh1">
+            </div>
+            <div class="tt-text">
+              <h3>Những Món Quà Tặng Ý Nghĩa Cho Các Dịp Lễ Tết</h3>
+              <p>Nước yến là loại thực phẩm giàu dinh dưỡng có nhiều công dụng đối với sức khỏe và sắc đẹp. Tuy nhiên, có
+                nhiều chị em vẫn thường thắc mắc liệu uống nước yến có đẹp da không? Hãy cùng HSkin Care...</p>
+            </div>
+          </div>
+        </div>
+        <button id="dhn-page3" style="
+        border-left-width: 300px;
+        margin-left: 710px;
+        ">Xem Tất Cả</button>
+      </div>
+  
+      <div class="Dangki">
+        <h2>Đăng Ký Để Nhận Ưu Đãi Độc Quyền</h2>
+        <form class="register" id="registrationForm">
+          <input type="email" id="email" name="email" placeholder="Nhập Email Của Bạn">
+          <input type="tel" id="phone" name="phone" placeholder="Số Điện Thoại">
+          <button type="button" id="dhn-page3" onclick="register()">Đăng Ký</button>
+      </form>
+
+        <hr width="100%" style="margin-top: 15px; margin-bottom: 35px;">
+        <ul class="list-bottom">
+          <ul class="thongtinlienhe">
+            <h3 id="listbottom-content">Thông Tin Liên Hệ</h3>
+            <br>
+            <li id="listbottom-text">
+              <i class="fa fa-map-marker"></i> &ensp;27A Lê Lợi, P.Xương Huân, Nha Trang, Khánh Hòa
+              <a href="https://www.google.com/maps?q=27A+Lê+Lợi,+P.Xương+Huân,+Nha+Trang,+Khánh+Hòa" target="_blank">Xem bản đồ</a>
+          </li>
+          
+            <li id="listbottom-text">
+              <i class="fa fa-phone"></i>&ensp;02758 3818468
+            </li>
+            <li id="listbottom-text">
+              <i class="fa fa-envelope"></i>&ensp;yensaohoangphi@gmail.com
+            </li>
+            <li id="listbottom-textgit init">
+              &ensp;<img src="/images/logo/bo-cong-thuong.png" alt="logo">
+            </li>
+          </ul>
+          <ul class="khachhang">
+            <h3 id="listbottom-content">Khách Hàng</h3>
+            <br>
+            <li id="listbottom-text"><i class="fas fa-dot-circle"></i>&ensp;<a href="https://mrvui.vn/chinh-sach-doi-tra">Chính sách đổi trả</a></li>
+            <li id="listbottom-text"><i class="fas fa-dot-circle"></i>&ensp;<a href="https://colaw.vn/dieu-khoan-va-dieu-kien/">Điều khoản và điều kiện</a></li>
+            <li id="listbottom-text"><i class="fas fa-dot-circle"></i>&ensp;<a href="https://crmviet.vn/cau-hoi-khach-hang/">Những câu hỏi thường gặp</a></li>
+
+          </ul>
+          <ul class="sanpham">
+            <h3 id="listbottom-content">Sản Phẩm</h3>
+            <br>
+            <li id="listbottom-text"><i class="fas fa-dot-circle"></i>&ensp;<a href="https://hocvien.haravan.com/blogs/thuat-ngu/chinh-sach-ban-hang-la-gi">Chính sách bán hàng</a></li>
+            <li id="listbottom-text"><i class="fas fa-dot-circle"></i>&ensp;<a href="https://www.thegioididong.com/huong-dan-mua-hang">Hướng dẫn mua hàng</a></li>
+            
+          </ul>
+          <ul class="ketnoi">
+            <h3 id="listbottom-content">Kết Nối Với Chúng Tôi</h3>
+            <br>
+            &ensp;<img src="/Icons-svg/Icons-svg/socials-footer/facebook.svg">
+            &ensp;<img src="/Icons-svg/Icons-svg/socials-footer/instagram.svg">
+            &ensp;<img src="/Icons-svg/Icons-svg/socials-footer/youtube.svg">
+            &ensp;<img src="/Icons-svg/Icons-svg/socials-footer/zalo.svg">
+          </ul>
+        </ul>
+      </div>
+      <script src="script.js"></script>
+    </div>
+    <div class="footer">
+      <div class="fa fa-copyright">
+       
+      </div>
+      <p id="T">Bản Quyền Thuộc Về HSkin Care</p>
+      <p id="P">Thiết Kế Và Phát Triển Bởi SweetSoft JCS</p>
+    </div>
+  
+  
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+    integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="slick.js"></script>
+  
+  </div>
+</body>
+
+</html>
