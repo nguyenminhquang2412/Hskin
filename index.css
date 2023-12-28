@@ -17,7 +17,7 @@ html {
 
 @font-face {
     font-family: 'CormorantGaramond-MediumItalic';
-    src: url('/fonts/CormorantGaramond-MediumItalic.ttf') format('truetype');
+    src: url('./fonts/CormorantGaramond-MediumItalic.ttf') format('truetype');
 }
 
 @font-face {
